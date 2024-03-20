@@ -1,0 +1,21 @@
+{
+  "name": "js-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dacynla/JS-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dacynla/JS-app/issues"
+  },
+  "homepage": "https://github.com/Dacynla/JS-app#readme",
+  "keywords": []
+}
