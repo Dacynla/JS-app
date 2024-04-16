@@ -1,25 +1,77 @@
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
 #root {
   width: 100%;
   height: 100%;
-  display: flex; /* Use flexbox to center the container */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container {
-  width: 80%;
-  max-width: 600px;
-  padding: 2rem;
-  text-align: center;
-  border: 2px solid #ccc;
-  border-radius: 10px;
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* Set a background color for the body */
 }
 
 body {
+  width: 100%;
+}
+
+.form-container {
+  width: 30vw; /* Set the width to 30% of the viewport width */
+  height: 50vh; /* Set the height to 60% of the viewport height */
+  max-width: 500px; /* Optionally, set a maximum width */
+  max-height: 500px; /* Optionally, set a maximum height */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  height: 100%; 
   background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+
+.form-group {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Arrange children horizontally */
+  justify-content: space-between; /* Push buttons to opposite sides */
+  align-items: center; /* Center vertically */
+  margin-bottom: 20px; /* Add margin between form groups */
+}
+
+
+.form-group input {
+  width: 100%;
+  background-color: #b2beb5;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  color: black; /* Set text color to black */
+  outline: none; /* Remove outline on focus */
+}
+
+.login-btn, .signup-btn {
+  margin-right: 10px;
+  outline: none; /* Remove outline on focus */
+}
+
+.forgot-password {
+  text-decoration: none; /* Remove default underline */
+  color: #333; /* Set color */
+  font-size: 14px; /* Set font size */
+}
+
+.forgot-password:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #333
 }
